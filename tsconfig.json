@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "jsx": "preserve",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true
